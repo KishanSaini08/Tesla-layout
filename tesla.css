@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ header{
     height: 3.75rem;
     position: fixed;
 }
-ul {
+.submenu{
     display: flex;
 }
 li{
@@ -47,7 +47,7 @@ ul li a
 }
 .mid {
     width: 100%;
-    padding-bottom: 3rem;
+    padding-top: 17rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -69,16 +69,34 @@ ul li a
     padding: 0.7rem 4.5rem;
     border: none;
 }
- /* .hover li a:hover{
-    color: whitesmoke;
+.icon{
+    text-align:center ;
+    height: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* .carros{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.submenu2{
+    display: flex;
+}
+.submenu2{
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 20px 40px; 
+}
+.submenu2 li{
+    padding: 10px; 
 } */
-/* .submenu2{
-    background-color: rgb(58, 58, 122);
-    left: inherit;
-    right: -120px;
-    top: 0; 
-}  */
-
 .second{
     height: 648px;
     background-image: url(./images/model-y.jpg);
