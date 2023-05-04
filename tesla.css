@@ -2,58 +2,148 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-.heading{
-    position: relative;
-}
-
-
-a{
-    text-decoration: none;
-    padding: 1rem;
-
-}
-ul{
-    list-style: none;
-}
-
 header{
     display: flex;
     justify-content: space-between;
-    padding-top: 2rem ; 
-    background-image:url(images/model-3.jpg);
+    align-items: center;
+    padding: 0 2rem ; 
     width: 100%;
-    height: 645px;
-    background-position: center;
+    height: 3.75rem;
+    position: fixed;
 }
- ul {
+ul {
     display: flex;
 }
-
+li{
+    list-style: none;
+}
+ul li a
+{
+    color: #000;
+    padding: 0 0.8rem;
+    text-decoration: none;
+}
+.first
+{
+    height: 648px;
+    background-image: url(./images/model-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .center {
-    position: absolute;
-
-
-    top: 20%;
-    left: -50%;
-    transform: translate(50%, 50%);
-
     width: 100%;
     text-align: center;
+    padding-top: 6.5rem;
 }
-
-.mid{
-    position: absolute;
-
-
-    top: 70%;
-    left: -50%;
-    transform: translate(50%, 50%);
-
+.center h1
+{
+    font-size: 3rem;
+}
+.mid {
     width: 100%;
+    padding-bottom: 3rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.button{
+    margin: 0.5rem;
+    background-color: rgb(23, 26, 32,0.7);
+    color: #fff;
+    border-radius: 1.5rem;
+    padding: 0.7rem 4.5rem;
+    border: none;
 }
+.button2{
+    margin: 0.5rem;
+    background-color: #fff;
+    color:black;
+    border-radius: 1.5rem;
+    padding: 0.7rem 4.5rem;
+    border: none;
+}
+ /* .hover li a:hover{
+    color: whitesmoke;
+} */
+/* .submenu2{
+    background-color: rgb(58, 58, 122);
+    left: inherit;
+    right: -120px;
+    top: 0; 
+}  */
 
+.second{
+    height: 648px;
+    background-image: url(./images/model-y.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.third
+{
+    height: 648px;
+    background-image: url(./images/model-s.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.four
+{
+    height: 648px;
+    background-image: url(./images/model-x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.five
+{
+    height: 648px;
+    background-image: url(./images/solar-panel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.six
+{
+    height: 648px;
+    background-image: url(./images/solar-roof.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.seven
+{
+    height: 648px;
+    background-image: url(./images/accessories.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 
 
